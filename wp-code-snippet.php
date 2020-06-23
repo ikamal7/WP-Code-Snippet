@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Plugin Name: Code Snippet
+ * Plugin Name: WP Code Snippet
  * Plugin URI: https://kamal.pw/code-snippet
  * Description: The plugin for share code snippets in page, post or anywhere in your website
  * Version: 1.0
