@@ -1,0 +1,13 @@
+{
+    "name": "kamal/wp-code-snippet",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "require": {
+        "htmlburger/carbon-fields": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamal\\CodeSnippet\\": "inc/"
+        }
+    }
+}
