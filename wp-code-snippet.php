@@ -2,7 +2,7 @@
 
 /*
  * Plugin Name: WP Code Snippet
- * Plugin URI: https://kamal.pw/code-snippet
+ * Plugin URI: https://kamal.pw/wp-code-snippet
  * Description: The plugin for share code snippets in page, post or anywhere in your website
  * Version: 1.0
  * Author: Kamal Hosen
@@ -59,7 +59,6 @@ if ( !class_exists( 'Code_Snippet' ) ) {
         public function cs_scripts_enqueue() {
             wp_enqueue_style( 'prism-css', CS_ASSETS . '/css/prism.css' );
             wp_enqueue_script( 'prism-js', CS_ASSETS . '/js/prism.js', array(), CS_VERSION, true );
-            wp_enqueue_script( 'preCode-js', '//raw.githubusercontent.com/leeoniya/preCode.js/master/preCode.js', array(), CS_VERSION, true );
         
         }
 
