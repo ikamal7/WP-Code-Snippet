@@ -10,9 +10,9 @@ class Code_block {
     }
 
     public function newBlock() {
-        Block::make( __('Code Snippet', 'code-snippet') )
-            ->set_category("formatting")
-            ->set_icon("media-code")
+        Block::make( __( 'Code Snippet', 'code-snippet' ) )
+            ->set_category( "formatting" )
+            ->set_icon( "media-code" )
             ->add_fields( [
                 Field::make( 'textarea', 'code_snipprt', __( 'Code', 'code-snippet' ) ),
                 Field::make( 'select', 'select_lang', __( 'Select Language', 'code-snippet' ) )
@@ -21,7 +21,7 @@ class Code_block {
                         'css'        => 'CSS',
                         'php'        => 'PHP',
                         'javascript' => 'Javascript',
-                        'python' => 'Python',
+                        'python'     => 'Python',
                     ) ),
             ] )
             ->set_render_callback( function ( $code ) {
