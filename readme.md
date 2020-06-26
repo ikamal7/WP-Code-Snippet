@@ -1,13 +1,13 @@
 # WP Code Snippet
 The plugin for share code snippets in page, post or anywhere in your website
 
-== Description ==
+## Description 
 WP Code Snippet is an easy, clean and simple way to share code in your website. WP Code Snippet support Gutenburg and classic editor.
 I develop a Gutenburg block Snippet.
 
-== Installation ==
+## Installation
 
-= Automatic installation =
+### Automatic installation
 
 1. Log into your WordPress admin
 2. Click __Plugins__
@@ -16,7 +16,7 @@ I develop a Gutenburg block Snippet.
 5. Click __Install Now__ under "Code Snippets"
 6. Activate the plugin
 
-= Manual installation =
+### Manual installation
 
 1. Download the plugin
 2. Extract the contents of the zip file
@@ -25,13 +25,13 @@ I develop a Gutenburg block Snippet.
 
 Network Activating Code Snippets through the Network Dashboard will enable a special interface for running snippets across the entire network.
 
-== Screenshots ==
+## Screenshots 
 
 1. Classic editor shortcode
 2. Gutenburg block
 3. Frontend Preview 
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0 
 * Stable version released.
